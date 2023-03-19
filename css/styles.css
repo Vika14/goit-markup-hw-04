@@ -316,10 +316,6 @@ p {
 /* team */
 
 .team {
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 32px;
   background-color: var(--light);
   padding-top: 120px;
   padding-bottom: 120px;
@@ -474,9 +470,6 @@ p {
 
 /* footer */
 .footer {
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: var(--headings-text);
@@ -537,21 +530,21 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
-  background-color: var(--body-text);
-  border-radius: 50%;
-}
-
-.footer-social:hover,
-.footer-social:focus {
-  background-color: var(--success);
 }
 
 .footer-link {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--body-text);
+  border-radius: 50%;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--success);
 }
 .footer-icon {
   width: 24px;
